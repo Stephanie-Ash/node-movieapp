@@ -1,0 +1,24 @@
+{
+  "name": "movieapp",
+  "version": "1.0.0",
+  "description": "Practice using Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stephanie-Ash/node-movieapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stephanie-Ash/node-movieapp/issues"
+  },
+  "homepage": "https://github.com/Stephanie-Ash/node-movieapp#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
