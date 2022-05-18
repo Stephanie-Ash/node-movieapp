@@ -3,3 +3,10 @@
 {"level":"info","message":"\u001b[0mGET /auth/login \u001b[36m304\u001b[0m 13.094 ms - -\u001b[0m\n"}
 {"level":"info","message":"hello"}
 {"level":"info","message":"::1 - - [18/May/2022:10:20:36 +0000] \"GET /auth/login HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36\"\n"}
+{"level":"info","message":"::1 - - [18/May/2022:13:19:22 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36\"\n"}
+{"level":"info","message":"::1 - - [18/May/2022:13:19:26 +0000] \"GET /movies/1 HTTP/1.1\" 200 16 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36\"\n"}
+{"level":"info","message":"::1 - - [18/May/2022:13:19:27 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:5000/movies/1\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36\"\n"}
+{"level":"info","message":"::1 - - [18/May/2022:13:28:15 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36\"\n"}
+{"level":"info","message":"::1 - - [18/May/2022:13:28:28 +0000] \"GET /movies/1 HTTP/1.1\" 200 12520 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36\"\n"}
+{"level":"info","message":"::1 - - [18/May/2022:13:32:44 +0000] \"GET /movies/1 HTTP/1.1\" 200 12520 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"info","message":"::1 - - [18/May/2022:13:33:26 +0000] \"GET /movies/2 HTTP/1.1\" 200 13779 \"-\" \"PostmanRuntime/7.29.0\"\n"}
