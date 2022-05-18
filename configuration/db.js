@@ -1,6 +1,6 @@
 const { MongoClient } = require('mongodb');
 
-const _uri = 
+const _uri = 'mongodb+srv://stephAsh:YCugmIee2YCZCiEh@firstproject.oywtt.mongodb.net/sample_mflix?retryWrites=true&w=majority'
 
 const dbCon = (coll, cb) => {
     MongoClient.connect(_uri)
@@ -9,7 +9,6 @@ const dbCon = (coll, cb) => {
             await cb(db);
             client.close();
         })
-        .catch
 };
 
 module.exports = dbCon;

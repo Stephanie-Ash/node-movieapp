@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/Stephanie-Ash/node-movieapp#readme",
   "dependencies": {
+    "bson": "^4.6.3",
     "express": "^4.18.1",
+    "http-errors": "^2.0.0",
     "mongodb": "^4.6.0",
     "morgan": "^1.10.0",
     "winston": "^3.7.2"
