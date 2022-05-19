@@ -1,6 +1,6 @@
 const { MongoClient } = require('mongodb');
 
-const _uri = 'mongodb+srv://stephAsh:YCugmIee2YCZCiEh@firstproject.oywtt.mongodb.net/sample_mflix?retryWrites=true&w=majority'
+const _uri = 
 
 const dbCon = (coll, cb) => {
     MongoClient.connect(_uri)
