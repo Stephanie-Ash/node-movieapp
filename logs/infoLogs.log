@@ -75,3 +75,73 @@
 {"level":"info","message":"::1 - - [23/May/2022:10:30:23 +0000] \"GET /movies/4 HTTP/1.1\" 401 26 \"-\" \"PostmanRuntime/7.29.0\"\n"}
 {"level":"info","message":"::1 - - [23/May/2022:10:32:25 +0000] \"GET /movies/4 HTTP/1.1\" 200 15568 \"-\" \"PostmanRuntime/7.29.0\"\n"}
 {"level":"info","message":"::1 - - [23/May/2022:10:39:35 +0000] \"GET /movies/4 HTTP/1.1\" 200 15568 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"info","message":"::1 - - [24/May/2022:14:06:24 +0000] \"POST /auth/login HTTP/1.1\" 200 216 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"info","message":"::1 - - [24/May/2022:14:06:50 +0000] \"GET /movies/4 HTTP/1.1\" 200 15568 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"info","message":"::1 - - [24/May/2022:14:07:24 +0000] \"GET /movies/4 HTTP/1.1\" 200 15568 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"error","message":"Comment is not defined"}
+{"level":"info","message":"::1 - - [24/May/2022:14:09:41 +0000] \"POST /createComment/573a1391f29313caabcd715c HTTP/1.1\" 500 1076 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"error","message":"Comment.valiate is not a function"}
+{"level":"info","message":"::1 - - [24/May/2022:14:14:21 +0000] \"POST /createComment/573a1391f29313caabcd715c HTTP/1.1\" 500 1076 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"error","message":"Comment.valiate is not a function"}
+{"level":"info","message":"::1 - - [24/May/2022:14:26:16 +0000] \"POST /createComment/573a1391f29313caabcd715c HTTP/1.1\" 500 1076 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"error","message":"Comment.valiate is not a function"}
+{"level":"info","message":"::1 - - [24/May/2022:14:26:54 +0000] \"POST /createComment/573a1391f29313caabcd715c/ HTTP/1.1\" 500 1076 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"error","message":"Comment.valiate is not a function"}
+{"level":"info","message":"::1 - - [24/May/2022:14:28:19 +0000] \"POST /createComment/573a1391f29313caabcd715c HTTP/1.1\" 500 1076 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"error","message":"Unauthorized"}
+{"level":"info","message":"::1 - - [24/May/2022:14:33:01 +0000] \"POST /createComment/573a1391f29313caabcd715c HTTP/1.1\" 401 26 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"error","message":"Comment.valiate is not a function"}
+{"level":"info","message":"::1 - - [24/May/2022:14:33:50 +0000] \"POST /createComment/573a1391f29313caabcd715c HTTP/1.1\" 500 1076 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"error","message":"Bad Request"}
+{"level":"info","message":"::1 - - [24/May/2022:14:35:36 +0000] \"POST /createComment/123 HTTP/1.1\" 400 25 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"info","message":"::1 - - [24/May/2022:14:37:04 +0000] \"POST /createComment/573a1391f29313caabcd715c HTTP/1.1\" 201 56 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"error","message":"Not Found"}
+{"level":"info","message":"::1 - - [25/May/2022:13:37:58 +0000] \"POST /editComment/573a1391f29313caabcd715c HTTP/1.1\" 404 23 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"info","message":"::1 - - [25/May/2022:13:38:21 +0000] \"POST /createComment/573a1391f29313caabcd715c HTTP/1.1\" 201 56 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"info","message":"::1 - - [25/May/2022:13:40:21 +0000] \"PUT /editComment/628ced903e9f917bcdc8c225 HTTP/1.1\" 200 29 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"info","message":"::1 - - [25/May/2022:13:43:51 +0000] \"PUT /editComment/628ced903e9f917bcdc8c225 HTTP/1.1\" 200 29 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"error","message":"Bad Request"}
+{"level":"info","message":"::1 - - [25/May/2022:13:46:00 +0000] \"DELETE /deleteComment/628ced903e9f917bcdc8c225 HTTP/1.1\" 400 25 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"error","message":"Bad Request"}
+{"level":"info","message":"::1 - - [25/May/2022:13:48:04 +0000] \"DELETE /deleteComment/628ced903e9f917bcdc8c225 HTTP/1.1\" 400 25 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"info","message":"::1 - - [25/May/2022:13:50:06 +0000] \"DELETE /deleteComment/628ced903e9f917bcdc8c225 HTTP/1.1\" 200 30 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"error","message":"Unauthorized"}
+{"level":"info","message":"::1 - - [25/May/2022:14:07:51 +0000] \"POST /createComment/573a1391f29313caabcd715c HTTP/1.1\" 401 26 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"error","message":"Unauthorized"}
+{"level":"info","message":"::1 - - [25/May/2022:14:08:54 +0000] \"POST /createComment/573a1391f29313caabcd715c HTTP/1.1\" 401 26 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"error","message":"Unauthorized"}
+{"level":"info","message":"::1 - - [25/May/2022:14:11:38 +0000] \"POST /createComment/573a1391f29313caabcd715c HTTP/1.1\" 401 26 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error","message":"Unauthorized"}
+{"level":"info","message":"::1 - - [25/May/2022:14:14:18 +0000] \"POST /createComment/573a1391f29313caabcd715c HTTP/1.1\" 401 26 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"error","message":"Unauthorized"}
+{"level":"info","message":"::1 - - [25/May/2022:14:15:28 +0000] \"POST /createComment/573a1391f29313caabcd715c HTTP/1.1\" 401 26 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"error"}
+{"level":"error","message":"Cannot read properties of undefined (reading '_id')"}
+{"level":"info","message":"::1 - - [25/May/2022:14:19:08 +0000] \"POST /createComment/573a1391f29313caabcd715c HTTP/1.1\" 500 1076 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"error","message":"Your password must be at least 8 characters and contain at least one uppercase letter, one lowercase letter, one number and one special character."}
+{"level":"info","message":"::1 - - [25/May/2022:14:24:24 +0000] \"POST /auth/signup HTTP/1.1\" 400 160 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"info","message":"::1 - - [25/May/2022:14:34:26 +0000] \"POST /auth/login HTTP/1.1\" 200 216 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"info","message":"::1 - - [25/May/2022:14:35:03 +0000] \"POST /createComment/573a1391f29313caabcd715c HTTP/1.1\" 201 56 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"info","message":"::1 - - [26/May/2022:09:38:28 +0000] \"GET /getComments/573a1391f29313caabcd715c/2 HTTP/1.1\" 200 2 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"info","message":"::1 - - [26/May/2022:09:38:40 +0000] \"GET /getComments/573a1391f29313caabcd715c/1 HTTP/1.1\" 200 2 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"info","message":"::1 - - [26/May/2022:09:39:13 +0000] \"POST /createComment/573a1391f29313caabcd715c HTTP/1.1\" 201 56 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"info","message":"::1 - - [26/May/2022:09:39:23 +0000] \"POST /createComment/573a1391f29313caabcd715c HTTP/1.1\" 201 56 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"info","message":"::1 - - [26/May/2022:09:39:37 +0000] \"POST /createComment/573a1391f29313caabcd715c HTTP/1.1\" 201 56 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"info","message":"::1 - - [26/May/2022:09:39:42 +0000] \"GET /getComments/573a1391f29313caabcd715c/1 HTTP/1.1\" 200 2 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"info","message":"::1 - - [26/May/2022:09:44:44 +0000] \"POST /createComment/573a1391f29313caabcd715c HTTP/1.1\" 201 56 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"info","message":"::1 - - [26/May/2022:09:44:51 +0000] \"POST /createComment/573a1391f29313caabcd715c HTTP/1.1\" 201 56 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"info","message":"::1 - - [26/May/2022:09:44:58 +0000] \"POST /createComment/573a1391f29313caabcd715c HTTP/1.1\" 201 56 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"info","message":"::1 - - [26/May/2022:09:45:05 +0000] \"POST /createComment/573a1391f29313caabcd715c HTTP/1.1\" 201 56 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"info","message":"::1 - - [26/May/2022:09:45:11 +0000] \"POST /createComment/573a1391f29313caabcd715c HTTP/1.1\" 201 56 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"info","message":"::1 - - [26/May/2022:09:45:18 +0000] \"POST /createComment/573a1391f29313caabcd715c HTTP/1.1\" 201 56 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"info","message":"::1 - - [26/May/2022:09:45:24 +0000] \"POST /createComment/573a1391f29313caabcd715c HTTP/1.1\" 201 56 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"info","message":"::1 - - [26/May/2022:09:45:30 +0000] \"POST /createComment/573a1391f29313caabcd715c HTTP/1.1\" 201 56 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"info","message":"::1 - - [26/May/2022:09:45:59 +0000] \"GET /getComments/573a1391f29313caabcd715c/1 HTTP/1.1\" 200 701 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"info","message":"::1 - - [26/May/2022:09:46:09 +0000] \"GET /getComments/573a1391f29313caabcd715c/2 HTTP/1.1\" 200 2 \"-\" \"PostmanRuntime/7.29.0\"\n"}
+{"level":"info","message":"::1 - - [26/May/2022:09:46:14 +0000] \"GET /getComments/573a1391f29313caabcd715c/1 HTTP/1.1\" 200 701 \"-\" \"PostmanRuntime/7.29.0\"\n"}
